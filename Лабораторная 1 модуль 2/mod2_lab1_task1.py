@@ -60,7 +60,7 @@ class Car:
         снижает прочность на 25%
         :return: новая прочность
 
-        >>> p2 = Car()
+        >>> p2 = Car(100)
         >>> p2.crash()
         >>> print(p2.prot)
         """
@@ -75,7 +75,7 @@ class Car:
         :return: новая скорость
 
 
-        >>> p2 = Car()
+        >>> p2 = Car(100)
         >>> p2.new_speed(134)
         >>> print(p2.speed)
         """

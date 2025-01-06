@@ -1,8 +1,8 @@
 from task_1 import Calculator, Car, Tasks
 
 if __name__ == "__main__":
- p1 = Calculator()
- p2 = Car()
+ p1 = Calculator(1,2)
+ p2 = Car(100)
  p3 = Tasks()
 
     try:
